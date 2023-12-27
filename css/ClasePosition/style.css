@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two{
+    background-color: green;
+}
+
+.cabecera{
+    background-color: red;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+    position: relative;
+    top: 1rem;
+}
+
+.cuadro_principal{
+    background-color: rgba(170, 170, 166, 0.539);
+    width: 650px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 2px black solid;
+}
+
+
+.cuadro_centrado{
+    height: 50%;
+    padding: 45px;
+    text-align: center;
+    
+}
